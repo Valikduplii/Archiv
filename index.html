@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1280, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -44,170 +44,292 @@
 			</div>
 		</header>
         <main>
-			<section class="report">
+			<section class="list__help">
 				<div class="container">
-					<div class="report__setting">
-						<form action="" id="form" class="body__form ">
-							<div class="form__item project">
-								<label for="" class="form__label">Проект</label>
-								<select name="project" id="project" >
-									<option selected>- Будь-що -</option>
-									<option>aaaa2</option>
-									<option>aaaa3</option>
-								</select>
-							</div>
-							<div class="form__item">
-								<label for="" class="form__label">Початкова дата</label>
-								<input type="text" name="dateStart" id="dateStart">
-								<div class="form__text">Наприклад, 10/03/2021</div>
-							</div>
-							<div class="form__item">
-								<label for="" class="form__label">Кінцева дата</label>
-								<input type="text" name="dateEnd" id="dateEnd">
-								<div class="form__text">Наприклад, 10/03/2021</div>
-							</div>
-							<div class="form__item">
-								<label for="" class="form__label">Виберіть тип</label>
-								<select name="type" id="type">
-									<option selected>Надходження</option>
-									<option>Витрати</option>
-								</select>
-							</div>
-							<button type="submit" class="form__button black">Застосувати</button>
-						</form>
+					<form class="list__help__setting">
+					<div class="list__help__setting__item">
+						<input type="text" class="list__help__setting__search" placeholder="Шукати"><span><img src="images/search.svg"></span></input>
 					</div>
-					<table class="report__table">
-						<tr>
-							<th width="135px">Дата</th>
-							<th width="175px">Проект</th>
-							<th width="655px">Опис</th>
-							<th width="120px">Тип</th>
-							<th width="175px">Сума</th>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-						<tr>
-							<td>11.02.2021</td>
-							<td>Придбання кисневих концентраторів</td>
-							<td>Отримано благодійні внески від БФ "Разом для України" для придбання кисневих концентраторів</td>
-							<td>Надходження</td>
-							<td>2 500.00 ГРН</td>
-						</tr>
-					</table>
-					<div class="report__controll-page">
+					<div class="list__help__setting__item">
+						<label for="">Пошук за:</label>
+						<div class="custom-select">
+							<select>
+								<option value="0">Датою</option>
+								<option value="0">Датою</option>
+								<option value="1">Іменем</option>
+								<option value="1">Днем народження</option>
+							</select>
+						</div>
+					</div>
+					<div class="btn black">Застосувати</div>
+					</form>
+					<div class="list__help__body">
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/01.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/02.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/01.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/02.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/01.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/02.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/01.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/02.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="list__help__body__item__row">
+							<div class="list__help__body__item">
+								<a href=""></a>
+								<div class="help__item__images">
+									<div class="help__slider__item__image__up"><span>Допомогти</span></div>
+									<img src="images/02.jpg" alt="" srcset="">
+								</div>
+								<div class="help__item__content__content">
+								<div class="help__item__content">
+									<div class="help__item__state">Активний</div>
+									<div class="help__item__title">Lorem Ipsum - це текст-"риба", що використовується в</div>
+									<div class="help__item__text">Риба" не тільки успішно пережила п'ять століть, але й прижилася популяризувалась в 60-их роках минулого сторіччя...</div>
+								</div>
+								<div class="help__item__footer">
+									<div class="help__item__footer__progressbar"></div>
+									<div class="help__item__footer__footer">
+										<div class="help__item__footer__have">
+											<div class="help__item__footer__have__text">Зібрано</div>
+											<div class="help__item__footer__have__number">101500 грн.</div>
+										</div>
+										<div class="help__item__footer__need">
+											<div class="help__item__footer__need__text">Необхідно</div>
+											<div class="help__item__footer__need__number">203620 грн.</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="controll-page">
 						<ul>
 							<li class="arrow"></li>
-						    <li class="active"><a href="#" class="news_page">1</a></li>
+						    <li ><a href="#"class="active" class="news_page">1</a></li>
 						    <li><a href="#" class="news_page">2</a></li>
 						    <li><a href="#" class="news_page">3</a></li>
 						    <li><a href="#" class="news_page">4</a></li>
